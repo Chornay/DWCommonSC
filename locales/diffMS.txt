@@ -1,0 +1,578 @@
+
+***** ms.json
+      "ERRORCreatingCust": "Ralat mencipta rekod pelanggan",
+"ERRORCreatingOrder": "Ralat mencipta pesanan anda TIDAK DIGUNAKAN",
+      "ERRORModifyingOrder": "Maaf, kami tidak dapat mengubah pesanan",
+***** MSNEW.JSON
+      "ERRORCreatingCust": "Ralat mencipta rekod pelanggan",
+"ERRORCreatingOrder": "Ralat mencipta pesanan anda",
+      "ERRORModifyingOrder": "Maaf, kami tidak dapat mengubah pesanan",
+*****
+
+***** ms.json
+***** MSNEW.JSON
+      "removeFromRoute": "Keluarkan pesanan ini dari laluan?",
+"approve": "Luluskan pesanan ini?",
+      "accept": "Terima pesanan ini ke kedai?",
+*****
+
+***** ms.json
+***** MSNEW.JSON
+      "failPickup": "Tidak dapat melakukan pengambilan ini?",
+"addQrCode": "Tambah id QR ini ke pesanan?",
+      "changeOrderId": "Tukar ke id pesanan baru dari QR?",
+"soon": "Hantar hampir sampai?",
+      "dropoff": "Hantar pesanan ini?",
+*****
+
+***** ms.json
+***** MSNEW.JSON
+      "lock": "Adakah laluan sedia untuk pemandu?",
+"unlock": "Laluan tidak sedia untuk pemandu?",
+      "truckAtShop": "Tandakan semua pengambilan sebagai di kedai?",
+*****
+
+***** ms.json
+***** MSNEW.JSON
+    "AcceptRightArrow": "Terima  >",
+"ADD_QR_CODE": "TAMBAH KOD QR",
+    "AddRemark": "Tambah Catatan",
+*****
+
+***** ms.json
+***** MSNEW.JSON
+    "Addresses": "Alamat",
+"AddressNotFound": "Alamat Tidak Ditemui",
+    "AddressesRightArrow": "Alamat  >",
+*****
+
+***** ms.json
+***** MSNEW.JSON
+    "AlternateAddress": "Alamat Alternatif",
+"APPROVE": "LULUS",
+    "AreWeInYourArea": "Adakah Kami Di Kawasan Anda?",
+*****
+
+***** ms.json
+***** MSNEW.JSON
+    "AT_SHOP": "DI KEDAI",
+"AtUnitNumber": "Di Unit {{unit}}",
+"AtYourUnit": "Di Unit Anda",
+    "Back": "Kembali",
+*****
+
+***** ms.json
+***** MSNEW.JSON
+    "CASH": "TUNAI",
+"CHANGE": "UBAH",
+"CHANGE_ORDER": "UBAH PESANAN",
+    "ChangeDeliveryLocation_": "Ubah Lokasi Penghantaran?",
+*****
+
+***** ms.json
+    "CONFIRM": "SAHKAN",
+    "COUPONS_": "KUPON?",
+    "CouponCode": "Kod Promo",
+***** MSNEW.JSON
+    "CONFIRM": "SAHKAN",
+"ContactSupport": "Hubungi Sokongan",
+    "CouponCode": "Kod Promo",
+*****
+
+***** ms.json
+***** MSNEW.JSON
+    "DeliveryChargeApplies": "Bayaran penghantaran untuk pesanan di bawah {{min}}",
+"DescribeYourLaundry": "< Huraikan Dobi Anda >",
+    "DETAILS": "BUTIRAN",
+*****
+
+***** ms.json
+    "DROPOFF": "HANTAR",
+    "DUE": "DIBERIKAN",
+    "DUEonDelivery": "DIBERIKAN pada Penghantaran",
+    "DUEonPickup": "DIBERIKAN pada Pengambilan",
+    "EDIT": "EDIT",
+***** MSNEW.JSON
+    "DROPOFF": "HANTAR",
+    "DUE": "Tertunggak",
+    "DUEonDelivery": "Tertunggak pada Penghantaran",
+    "DUEonPickup": "Tertunggak pada Pengambilan",
+    "EDIT": "EDIT",
+*****
+
+***** ms.json
+***** MSNEW.JSON
+    "EmailNotFound": "Emel itu belum mendaftar",
+"EmailSent": "Emel dihantar",
+"EnableNotifications": "Jika anda membenarkan pemberitahuan, kami dapat memaklumkan status pesanan anda",
+    "EnterDotDot": "Masukkan.....",
+*****
+
+***** ms.json
+***** MSNEW.JSON
+    "ERRORWeakPassword": "Kata laluan mesti sekurang-kurangnya 8 aksara, dengan huruf besar, huruf kecil dan nombor",
+"EZ_QUICK": "MUDAH - PESANAN PANTAS",
+    "FINAL_REVIEW": "SEMAKAN AKHIR",
+*****
+
+***** ms.json
+    "Id": "Id",
+    "InstructionsNote1": "Sentuh ",
+    "InstructionsNote2": " untuk menambah arahan khas",
+    "Instructions": "Arahan",
+***** MSNEW.JSON
+    "Id": "Id",
+"ImageNotFound": "Imej Tidak Ditemui",
+"InLobby": "Di Lobi",
+"InstructionsNote": "Sentuh item berlorek untuk tambah catatan/foto",
+    "Instructions": "Arahan",
+*****
+
+***** ms.json
+***** MSNEW.JSON
+    "INVALID": "TIDAK SAH",
+"ITEMIZE_YOUR_ORDER": "PERINCI PESANAN ANDA",
+    "Language": "Bahasa",
+    "Last": "Akhir",
+"LetsConfirm": "Mari Sahkan",
+    "LOCK": "KUNCI",
+*****
+
+***** ms.json
+    "MsgAddressSelect": "Masukkan Alamat, klik pada peta atau tarik pin",
+    "MsgCantOpenWhatsapp": "Maaf. Tidak dapat membuka Whatsapp.",
+    "MsgDeliveryChargeMayApply": "** Penghantaran {{amount}} di bawah {{min}} mungkin dikenakan **",
+***** MSNEW.JSON
+    "MsgAddressSelect": "Masukkan Alamat, klik pada peta atau tarik pin",
+"MsgCantFindWaze": "Maaf. Tidak dapat mencari Waze.",
+"MsgCantFindWhatsapp": "Maaf. Tidak dapat mencari Whatsapp.",
+"MsgCantOpenDialer": "Maaf. Tidak dapat mengakses pendail.",
+"MsgCantOpenEmail": "Maaf. Tidak dapat mengakses emel.",
+"MsgCantOpenMessaging": "Maaf. Tidak dapat mengakses mesej.",
+"MsgCantOpenWaze": "Maaf. Tidak dapat membuka Waze.",
+    "MsgCantOpenWhatsapp": "Maaf. Tidak dapat membuka Whatsapp.",
+"MsgCouponMinimumOrderIs": "** Pesanan minimum kupon ialah {{min}} **",
+"MsgCouponMayApply": "** Pesanan minimum kupon {{min}} mungkin dikenakan**",
+    "MsgDeliveryChargeMayApply": "** Penghantaran {{amount}} di bawah {{min}} mungkin dikenakan **",
+*****
+
+***** ms.json
+    "MsgMinimumChargeMayApply": "** Caj minimum {{amount}} mungkin dikenakan **",
+    "MsgShopPrice": "** Harga akan diselesaikan di kedai **",
+    "MyCoupons": "Kupon Saya",
+***** MSNEW.JSON
+    "MsgMinimumChargeMayApply": "** Caj minimum {{amount}} mungkin dikenakan **",
+    "MsgQRNoData": "Tiada data ditemui dalam QR",
+    "MsgQRInvalid": "Kod QR tidak sah",
+    "MsgQRNoCode": "Tiada kod ditemui dalam data QR",
+    "MsgQROrderAlreadyExists": "Kod QR {{code}} sudah wujud dalam pesanan Id {{id}}",
+    "MsgQROrderDoesNotExist": "Kod QR {{code}} tidak merujuk kepada pesanan",
+    "MsgRequireAppUpdate": "Versi baru diperlukan untuk meneruskan",
+    "MsgShopPrice": "** Harga akan diselesaikan di kedai **",
+    "MsgServiceChargeWillApply": "** Caj perkhidmatan {{percent}}% akan dikenakan **",
+    "MsgSystemUnavailable": "Maaf, sistem tidak tersedia",
+    "MyCoupons": "Kupon Saya",
+*****
+
+***** ms.json
+***** MSNEW.JSON
+    "NO_SHOP_SELECTED": "TIADA KEDAI DIPILIH",
+"notInArea": "Alamat ini tidak dilayan oleh kedai",
+    "NoThanksArrowLeft": "<  Tidak, Terima Kasih",
+*****
+
+***** ms.json
+***** MSNEW.JSON
+    "NOT_NOW": "BUKAN SEKARANG",
+"NotificationSent": "Pemberitahuan Dihantar",
+"NOTIFY": "BERITAHU",
+    "NotNowArrowLeft": "<  Bukan Sekarang",
+*****
+
+***** ms.json
+***** MSNEW.JSON
+    "OkayArrowRight": "Okey  >",
+"OPTIONS": "PILIHAN",
+    "Order": "Pesanan",
+"ORDER_CHANGE_INVOICE": "INVOIS PERUBAHAN PESANAN",
+"ORDER_CHANGE_SUMMARY": "RINGKASAN PERUBAHAN PESANAN",
+"OrderChangesConfirm_": "Hantar Perubahan Ini?",
+"OrderId": "Id Pesanan",
+    "ORDER_ID": "ID PESANAN",
+*****
+
+***** ms.json
+***** MSNEW.JSON
+    "OrSigninWith": "Atau Log Masuk Dengan",
+"OtpMessage": "Masukkan kod OTP yang dihantar ke nombor anda",
+    "PAIDCash": "DIBAYAR Tunai",
+*****
+
+***** ms.json
+***** MSNEW.JSON
+    "PLACE_NEW_ORDER": "BUAT PESANAN BARU",
+"PleaseConfirm": "Sila Sahkan",
+    "PleaseEnterCustomAddress": "Sila masukkan alamat suai anda",
+*****
+
+***** ms.json
+***** MSNEW.JSON
+    "PleaseEnterAlternateAddress": "Sila masukkan alamat alternatif anda atau BATAL",
+"PleaseEnterYourUnit": "Sila masukkan unit anda",
+    "ChooseYourShop": "Sila Pilih Kedai Anda",
+*****
+
+***** ms.json
+***** MSNEW.JSON
+    "PRICE": "HARGA",
+"Pricing": "Penetapan Harga",
+"PRINT": "CETAK",
+    "Profile": "Profil",
+*****
+
+***** ms.json
+***** MSNEW.JSON
+    "SCAN_ORDER_QR": "QR PESANAN BARU",
+"SCREEN_DOES_NOT_UPDATE": "SKRIN TIDAK KEMASKINI",
+    "Search": "Cari",
+*****
+
+***** ms.json
+***** MSNEW.JSON
+    "SEARCH": "CARIAN",
+"SEARCH_FOR_DEALS": "CARI TAWARAN",
+    "SEE_DETAILS": "LIHAT BUTIRAN",
+*****
+
+***** ms.json
+    "SERVICE_LEVEL": "TAHAP PERKHIDMATAN",
+    "ServiceSurcharge": "Bayaran Tambahan Perkhidmatan",
+***** MSNEW.JSON
+    "SERVICE_LEVEL": "TAHAP PERKHIDMATAN",
+    "SERVICE_PROVIDED_AT": "PERKHIDMATAN DISEDIAKAN DI",
+    "SERVICE_PROVIDED_BY": "PERKHIDMATAN DISEDIAKAN OLEH",
+    "ServiceSurcharge": "Bayaran Tambahan Perkhidmatan",
+*****
+
+***** ms.json
+    "SigninWithPhone": "  Log masuk dengan telefon",
+    "StartAgainLeftArrow": "<  Mula Semula",
+***** MSNEW.JSON
+    "SigninWithPhone": "  Log masuk dengan telefon",
+    "SOON": "SEBENTAR LAGI",
+    "StartAgainLeftArrow": "<  Mula Semula",
+*****
+
+***** ms.json
+    "START_AGAIN": "MULA SEMULA",
+    "Surcharge": "Bayaran Tambahan",
+***** MSNEW.JSON
+    "START_AGAIN": "MULA SEMULA",
+    "SUBMIT_CHANGES": "HANTAR PERUBAHAN",
+    "Surcharge": "Bayaran Tambahan",
+*****
+
+***** ms.json
+    "Unpriced": "Tiada Harga",
+    "UseAlternateAddress": "Gunakan Alamat Alternatif",
+***** MSNEW.JSON
+    "Unpriced": "Tiada Harga",
+    "UPDATE": "KEMASKINI",
+    "UseAlternateAddress": "Gunakan Alamat Alternatif",
+*****
+
+***** ms.json
+    "Waiting": "Menunggu",
+    "WhatsAPP": "Whatsapp",
+***** MSNEW.JSON
+    "Waiting": "Menunggu",
+    "WaitingForApproval": "Menunggu Kelulusan",
+    "WhatsAPP": "Whatsapp",
+*****
+
+***** ms.json
+    "YourAddress": "Alamat Anda",
+    "YourCouponAmount": "Kupon anda bernilai @ {{amount}}",
+    "YourCouponPercent": "Kupon anda bernilai @ {{percent}}%",
+    "YourDeliveryLocation": "Lokasi Penghantaran Anda",
+***** MSNEW.JSON
+    "YourAddress": "Alamat Anda",
+    "YourCouponAmount": "Kupon anda bernilai {{amount}}",
+    "YourCouponPercent": "Kupon anda bernilai {{percent}}%",
+    "YourDeliveryLocation": "Lokasi Penghantaran Anda",
+*****
+
+***** ms.json
+    "PaymentOptionsNewOrder": "Pesanan anda telah dicipta",
+    "PaymentOptions1": "Pesanan anda akan diharga di kedai.",
+***** MSNEW.JSON
+    "PaymentOptionsNewOrder": "Pesanan anda telah dicipta",
+    "PaymentOptionsApproved": "Bagaimana anda ingin membayar pesanan?",
+    "PaymentOptionsUnapproved": "Pesanan anda akan diperiksa di kedai.\n\nKami akan menghantar mesej apabila selesai.",
+    "PaymentOptions1": "Pesanan anda akan diharga di kedai.",
+*****
+
+***** ms.json
+    "Accessories": "Aksesori",
+    "Baju": "Baju",
+***** MSNEW.JSON
+    "Accessories": "Aksesori",
+    "Adjustment": "<Pelarasan>",
+    "Baju": "Baju",
+*****
+
+***** ms.json
+    "Bedding": "Tempat Tidur",
+    "Bedsheet": "Cadur",
+    "BedSheet": "Cadur",
+    "BedSheetSQK": "Cadur (S/Q/K)",
+    "BedsheetDuvetCover": "Cadur/Sarung Duvet",
+    "Blazer": "Blazer",
+***** MSNEW.JSON
+    "Bedding": "Tempat Tidur",
+    "Bedsheet": "Cadar",
+    "BedSheet": "Cadar",
+    "BedSheetSQK": "Cadar (S/Q/K)",
+    "BedsheetDuvetCover": "Cadar/Sarung Duvet",
+    "Blazer": "Blazer",
+*****
+
+***** ms.json
+    "ComforterS": "Selimut (S)",
+    "Curtain": "Langsir",
+    "Curtain.Sheer": "Langsir Sheer",
+    "Curtain.SheerPc": "Langsir Sheer (pc)",
+    "Dress": "Dress",
+***** MSNEW.JSON
+    "ComforterS": "Selimut (S)",
+    "Comment": "Komen",
+    "ConfirmBefore": "Adakah anda ingin mengesahkan pesanan sebelum kami meneruskan?",
+    "ConfirmHangers": "Adakah anda mahu pakaian di gantungan?",
+    "Curtain": "Langsir",
+    "CurtainSheer": "Langsir Sheer",
+    "CurtainSheerPc": "Langsir Sheer (pc)",
+    "CUSTOM": "SUAIAN",
+    "DescribeYourLaundry": "<Huraikan Dobi Anda>",
+    "DetailYourOrder": "Perincikan Pesanan Anda",
+    "Dress": "Dress",
+*****
+
+***** ms.json
+    "DuvetCoverS": "Sarung Duvet (S)",
+    "EZPick": "Pengambilan Mudah",
+    "FlatSheet": "Cadur Rata",
+    "Garments": "Pakaian",
+***** MSNEW.JSON
+    "DuvetCoverS": "Sarung Duvet (S)",
+    "EZDry": "Cucian Kering MUDAH",
+    "EZHand": "Cucian Tangan MUDAH",
+    "EZLaundry": "Dobi MUDAH",
+    "EZPick": "Pengambilan Mudah",
+    "FlatSheet": "Cadar Rata",
+    "Garments": "Pakaian",
+*****
+
+***** ms.json
+    "HandwashIronClothes": "Cucian Tangan & Seterika (Pakaian)",
+    "Household": "Rumah Tangga",
+***** MSNEW.JSON
+    "HandwashIronClothes": "Cucian Tangan & Seterika (Pakaian)",
+    "Hangers": "Gantungan",
+    "Household": "Rumah Tangga",
+*****
+
+***** ms.json
+    "LapikMeja": "Lapik Meja",
+    "Leather": "Kulit",
+***** MSNEW.JSON
+    "LapikMeja": "Lapik Meja",
+    "Laundry": "Dobi",
+    "Leather": "Kulit",
+*****
+
+***** ms.json
+    "Necktie": "Tali Leher",
+    "Overcoat": "Overcoat",
+***** MSNEW.JSON
+    "Necktie": "Tali Leher",
+    "NotesToCustomer": "<Nota kepada Pelanggan>",
+    "OptionScent": "Adakah anda mahu tambahan wangian?",
+    "OPTIONS": "PILIHAN",
+    "Others": "Lain-lain",
+    "Overcoat": "Overcoat",
+*****
+
+***** ms.json
+    "PunjabiSuitSet23": "Sut Punjabi (2 atau 3 pcs)",
+    "Mens": "Lelaki",
+***** MSNEW.JSON
+    "PunjabiSuitSet23": "Sut Punjabi (2 atau 3 pcs)",
+    "Remark1": "Catatan 1",
+    "Remark2": "Catatan 2",
+    "Remark3": "Catatan 3",
+    "Remark4": "Catatan 4",
+    "Mens": "Lelaki",
+*****
+
+***** ms.json
+    "Scarf": "Skaf",
+    "Sejadah": "Sejadah",
+***** MSNEW.JSON
+    "Scarf": "Skaf",
+    "Scent": "Wangian",
+    "Sejadah": "Sejadah",
+*****
+
+***** ms.json
+    "Shirt": "Kemeja",
+    "ShirtButtonPoloT": "Kemeja (Berbutang, Polo, T-shirt)",
+***** MSNEW.JSON
+    "Shirt": "Kemeja",
+    "Shirts": "Kemeja",
+    "ShirtButtonPoloT": "Kemeja (Berbutang, Polo, T-shirt)",
+*****
+
+***** ms.json
+    "ShirtTshirtPoloTBlouse": "Kemeja/T-Shirt/Polo-T/Blaus",
+    "Shorts": "Seluar Pendek",
+***** MSNEW.JSON
+    "ShirtTshirtPoloTBlouse": "Kemeja/T-Shirt/Polo-T/Blaus",
+    "SHOP": "KEDAI",
+    "Shorts": "Seluar Pendek",
+*****
+
+***** ms.json
+    "Test": "Ujian",
+    "Tie": "Tali Leher",
+***** MSNEW.JSON
+    "Test": "Ujian",
+    "TestPc": "Ujian kod pc",
+    "TestKg": "Ujian kod kg",
+    "TestSpc": "Ujian kod spc",
+    "TestCount": "Ujian kod kiraan",
+    "TestChoice": "Ujian kod pilihan",
+    "TestChoicePriced": "Ujian kod pilihan berharga",
+    "TestYesNo": "Ujian kod ya/tidak",
+    "TestYesNoPriced": "Ujian kod ya/tidak berharga",
+    "TestInput": "Ujian kod input",
+    "TestAdj": "Ujian kod pelarasan",
+    "Tie": "Tali Leher",
+*****
+
+Resync Failed.  Files are too different.
+***** ms.json
+    "UniformSet": "Set Uniform",
+    "CustomPriceString": {
+      "From7": "Dari RM7",
+      "From18": "Dari RM18",
+      "From24": "Dari RM24",
+      "From29kg": "Dari 29/kg",
+      "From30": "Dari RM30",
+      "SqFt3_5": "3.5/sq ft",
+      "SqFt5": "5/sq ft"
+    }
+  }
+}
+***** MSNEW.JSON
+    "UniformSet": "Set Uniform",
+    "Abaya": "Abaya",
+    "BCarSeat": "Tempat Duduk Kereta Bayi",
+    "BCarrier": "Pembawa Bayi",
+    "BMattressPillow": "Tilam Bayi + Bantal",
+    "BajuKurungBottom": "Baju Kurung (Bawah)",
+    "BajuKurungKids": "Baju Kurung (Kanak-kanak)",
+    "BajuKurungPlasCover": "Baju Kurung (Sarung Plastik)",
+    "BajuKurungSilk": "Baju Kurung (Sutera)",
+    "BajuMelayuKids": "Baju Melayu Kanak-kanak",
+    "BajuMelayuPlasCover": "Baju Melayu (Sarung Plastik)",
+    "BajuMelayuSingle": "Baju Melayu",
+    "Blanket": "Selimut",
+    "BlazerSet": "Blazer (Set)",
+    "BlazerSetThick": "Blazer (Set Tebal)",
+    "BlazerThick": "Blazer (Tebal)",
+    "BlouseLong": "Blaus Panjang",
+    "Bolster": "Bolster",
+    "BushJacketSet": "Jaket Bush (Set)",
+    "Ceremonial": "Upacara",
+    "Cheongsam": "Cheongsam",
+    "CheongsamLong": "Cheongsam (Panjang)",
+    "CheongsamSet": "Cheongsam (Set)",
+    "CoatSet": "Kot (Set)",
+    "CurtainBeads": "Langsir (Manik)",
+    "CurtainDC": "Langsir (Cucian Kering)",
+    "CurtainNormal": "Langsir (Biasa)",
+    "CurtainWashIron": "Langsir (Basuh & Seterika)",
+    "Cushion": "Kusyen",
+    "DressBottom": "Dress (Bawah)",
+    "DressJubahPlasCover": "Dress/Jubah (Sarung Plastik)",
+    "FootPad": "Alas Kaki",
+    "Headscarft": "Tudung Kepala",
+    "JubahBeads": "Jubah (Manik)",
+    "JubahBottom": "Jubah (Bawah)",
+    "Kemeja": "Kemeja",
+    "Lehenga": "Lehenga",
+    "LehengaBottom": "Lehenga (Bawah)",
+    "LehengaSet": "Lehenga (Set)",
+    "LehengaSetTop": "Lehenga (Set Atas)",
+    "LehengaWBt": "Lehenga (Manik)",
+    "LongBlouse": "Blaus Panjang",
+    "MattressCover": "Sarung Tilam",
+    "MattressLatex": "Tilam Lateks",
+    "PlacematLarge": "Alas Meja (Besar)",
+    "PlacematStd": "Alas Meja (Standard)",
+    "PleatedSkirt": "Skirt (Berlipat)",
+    "Punjabi": "Punjabi",
+    "PunjabiBottom": "Punjabi (Bawah)",
+    "PunjabiTop": "Punjabi (Atas)",
+    "Robe": "Jubah Mandi",
+    "RobeSet": "Jubah Mandi (Set)",
+    "STDBlouse": "Blaus Standard",
+    "Samping": "Samping",
+    "SareeBead": "Saree (Manik)",
+    "SareeBlouse": "Blaus Saree",
+    "SareeBottom": "Saree (Bawah)",
+    "SareeWedding": "Saree Perkahwinan",
+    "Schawl": "Selendang",
+    "SchoolBag": "Beg Sekolah",
+    "SchoolUniformSet": "Uniform Sekolah (Set)",
+    "SchoolUniformWhite": "Uniform Sekolah Putih",
+    "Shawl": "Selendang",
+    "SheepSkin": "Kulit Biri-biri",
+    "Sherwani": "Sherwani",
+    "SherwaniBottom": "Sherwani (Bawah)",
+    "SherwaniSet": "Sherwani (Set)",
+    "SherwaniTop": "Sherwani (Atas)",
+    "ShirtPlasCover": "Kemeja (Sarung Plastik)",
+    "ShortPants": "Seluar Pendek",
+    "SportShoe": "Kasut Sukan",
+    "TableClothWash": "Kain Meja (Basuh Biasa)",
+    "TableClothWashDeepClean": "Kain Meja (Cucian Dalam)",
+    "ThickCarpet": "Permaidani Tebal",
+    "ThinCarpet": "Permaidani Nipis",
+    "Toto": "Toto",
+    "TudungWB": "Tudung (Manik)",
+    "Vesti": "Vesti",
+    "VestiK": "Vesti Kanak-kanak",
+    "VestiKids": "Vesti Kanak-kanak",
+    "VestiSet": "Vesti (Set)",
+    "WeddeingDressBoySet": "Gaun Perkahwinan Lelaki (Set)",
+    "WeddingDressGirlSet": "Gaun Perkahwinan Perempuan (Set)",
+    "WinterCoatThick": "Kot Musim Sejuk Tebal",
+    "WinterCoatThin": "Kot Musim Sejuk Nipis",
+    "DescribeYourDryCleaning": "<Huraikan Cucian Kering Anda>",
+    "DescribeYourHandWashing": "<Huraikan Cucian Tangan Anda>",
+    "CustomPriceString": {
+      "From3": "Dari RM3",
+      "From5to7": "Dari RM5-7",
+      "From7": "Dari RM7",
+      "From8": "Dari RM8",
+      "From10": "Dari RM10",
+      "From13to25": "Dari RM13-25",
+      "From18": "Dari RM18",
+      "From20": "Dari RM20",
+      "From20to30": "Dari RM20-30",
+      "From22": "Dari RM22",
+      "From24": "Dari RM24",
+      "From28": "Dari RM28",
+*****
+

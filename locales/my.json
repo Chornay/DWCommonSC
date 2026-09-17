@@ -1,0 +1,346 @@
+{
+  "cmn": {
+    "alert":{
+      "Please_enter_valid_count":"Sila masukkan kiraan yang sah",  
+      "Please_enter_valid_price":"Sila masukkan harga yang sah",
+      "Please_enter_valid_weight":"Please enter a valid weight"
+    },
+    "date":{
+      "Today":"Hari ini",
+      "Tomorrow":"Esok",
+      "Yesterday":"Semalam"
+    },
+    "filterModeSelection": {
+      "all": "Semua pesanan",
+      "delivery": "Hanya penghantaran",
+      "pickup": "Hanya pengambilan"
+    },
+    "geolocat": {
+      "title": "Kebenaran Geolokasi",
+      "message": "Aplikasi memerlukan akses ke lokasi telefon anda.",
+      "buttonNeutral": "Tanya saya nanti",
+      "buttonNegative": "Batal",
+      "buttonPositive": "OK"
+    },
+    "sortModeSelection": {
+      "name": "Dengan nama",
+      "order": "Mengikut nombor pesanan",
+      "distance": "Mengikut jarak"
+    },
+    "question": {
+      "How_many":"Berapa banyak?",
+      "Price":"Harga?",
+      "Weight":"Berat?"
+      },
+    "Active_Routes":"Laluan Aktif",
+    "Action":"Tindakan",
+    "Address":"Alamat",
+    "all":"Semua",
+    "ALL":"SEMUA",
+    "b_each":"Masing-masing",
+    "cancel":"Batal",
+    "CANCEL":"BATAL",
+    "CLOSE":"TUTUP",
+    "CUSTOM":"SESUAIKAN",
+    "custom":"sesuaikan",
+    "CustomPriceAtShop":"Harga di kedai",
+    "delivery":"penghantaran",
+    "DELIVERY":"penghantaran",
+    "distance":"distance",
+    "DISTANCE":"DISTANCE",
+    "ENTER":"ENTER",
+    "Error":"kesilapan",
+    "ERROR":"KESILAPAN",
+    "History":"Sejarah",
+    "ID":"ID",
+    "Interim_Price":"Harga Interim",
+    "Items":"Barang",
+    "b_per_kg":" / kg",
+    "LIST":"SENARAI",
+    "MAP":"PETA",
+    "name":"Nama",
+    "Name":"Nama",
+    "NAME":"NAMA",
+    "Net":"Bersih",
+    "NEXT":"SETERUSNYA",
+    "Notes":"Catatan",
+    "OK":"OK",
+    "okay":"okay",
+    "OKAY":"OKAY",
+    "OPEN":"BUKA",
+    "order":"Pesanan",
+    "ORDER":"PESANAN",
+    "Order_Detail":"Perincian Pesanan",
+    "Phone":"Telefon",
+    "pickup":"pengambilan",
+    "PICKUP":"PENGAMBILAN",
+    "PREVIOUS":"MENCEGAH",
+    "Route_Detail":"Perincian Laluan",
+    "SETTINGS":"PENYELESAIAN",
+    "Special":"Istimewa",
+    "Status":"Status",
+    "summary":"ringkasan",
+    "SUMMARY":"RINGKASAN",
+    "System_Error":"kesalahan sistem",
+    "Time":"Masa",
+    "Total_Price":"Harga keseluruhan",
+    "Unit_Price":"Harga seunit"
+  },
+  "cst": {
+    "phrase": {
+      "OrderCreated":"Pesanan anda berjaya dibuat"
+      },
+      "question": {
+        "ConfirmDelivery":"Sahkan penghantaran dobi anda?",
+        "CancelOrder":"Adakah anda ingin membatalkan pesanan ini?"
+        },
+        "orderStatusDescrip": {
+        "initial"             : "Masih memasuki pesanan ini",                    
+        "cancelled"           : "Dibatalkan",
+        "assignedForPickup"      : "Pemandu ditugaskan untuk pengambilan",
+        "readyForPickup"      : "Sedia untuk diambil",
+        "outForPickup"         : "Pemandu keluar untuk pengambilan",
+        "pickedUp"            : "Sudah diambil",
+        "atShop"              : "Di kedai",
+        "inShop"             : "Sedang dibersihkan",
+        "readyForDelivery"    : "Pembersihan anda selesai",
+        "assignedForDelivery" : "Pemandu ditugaskan untuk penghantaran",
+        "outForDelivery"      : "Dalam perjalanan",
+        "delivered"      : "Pesanan anda telah dihantar",
+        "confirmed"      : "Anda telah mengesahkan penerimaan. Terima kasih",
+        "completed"      : "Pesanan selesai",
+        "Invalid"             : "Status tidak sah"
+      },
+      "orderActionConfirm": {
+        "cancel": "Adakah anda ingin membatalkan pesanan ini?",
+        "confirm": "Sahkan penghantaran dobi anda?",
+        "pay": "Adakah anda ingin membayar pesanan ini?"
+      },
+      "CHECKOUT":"SEMAK",
+      "Checkout_Summary":"Ringkasan Pemeriksaan",
+      "Delivery_Options":"Pilihan penghantaran",
+      "New_Order":"Pesanan Baru",
+      "NEW_ORDER":"PESANAN BARU",
+      "Order_Submission":"Penyerahan Pesanan",
+      "Payment":"Pembayaran",
+      "PAYMENT":"PEMBAYARAN",
+      "Pickup_Options":"Pilihan Pengambilan",
+      "Select_Address":"Pilih Alamat",
+      "SELECT_ADDRESS":"PILIH ALAMAT",
+      "Your_Order":"Pesanan anda",
+      "YOUR_ORDER":"PESANAN ANDA",
+      
+      "serviceNotAvailable": "Maaf, perkhidmatan tidak tersedia di kawasan anda"
+      },
+
+    "driver": {
+      "question": {
+        "ConfirmDelivery":"Sahkan Penghantaran?",
+        "ConfirmPickup":"Sahkan Pengambilan?",
+        "WasDeliveryMistake":"Adakah Penghantaran Ini Kesalahan?",
+        "WasPickupMistake":"Adakah Pengambilan Ini Kesalahan?"
+        },
+      "tab": {
+        "LIST":"SENARAI",
+        "MAP":"PETA",
+        "SUMMARY":"RINGKASAN"
+        }
+      },
+      "drv": {
+        "orderStatusDescrip": {
+          "initial": "Pengguna membuat pesanan",
+          "cancelled": "Pesanan dibatalkan",
+          "readyForPickup": "Sedia untuk diambil",
+          "assignedForPickup":"Sedia untuk diambil",
+          "outForPickup":"Sedia untuk diambil",
+          "pickedUp": "Dalam Lori",
+          "atShop": "Di Kedai",
+          "inShop": "Di Kedai",
+          "readyForDelivery": "Bersih",
+          "assignedForDelivery": "Sedia Untuk Penghantaran",
+          "outForDelivery": "Sedia Untuk Penghantaran",
+          "delivered": "Dihantar",
+          "confirmed": "Penghantaran Disahkan",
+          "completed": "Ditutup oleh kedai",
+          "invalid": "Status pesanan tidak sah"
+        },
+  
+      "routeStatusDescrip": {
+        "pending": "Masih menambah pesanan",
+        "locked": "Belum ada pesanan lagi, belum ada pemandu",
+        "assigned": "Ditugaskan kepada pemandu",
+        "open": "Pemandu keluar",
+        "completedNeedsAction": "Pemandu selesai tetapi pesanan memerlukan harga",
+        "completed": "Pemandu telah menyelesaikan laluan",
+        "acceptedNeedsAction": "Laluan diterima tetapi pesanan memerlukan harga",
+        "accepted": "Laluan siap diterima oleh kedai",
+        "done": "Semua selesai",
+        "invalid": "Status tidak sah"
+        }
+
+    },
+    "dsRteSumm": {
+      "TITLE":"SUMMARY",
+      "DELIVERIES:":"PENGHANTARAN:",
+      "PICKUPS:":"PICKUPS:",
+      "OTHERS:":"LAIN-LAIN:",
+      "Done:":"SELESAI:",
+      "Others:":"LAIN-LAIN:",
+      "Remaining:":"Kekal:",
+      "Total:":"Jumlah:"
+    },
+
+    "err":{
+      "DbOpen":"Ralat semasa mengakses pangkalan data",
+      "errorDetected":"Kesalahan telah dikesan, sila laporkan sebarang mesej yang mengikuti",
+      "invalidOrderStatusText":"Status Pesanan Tidak Sah"
+    },
+
+    "login": {
+      "welcome": "Selamat datang {{name}} ke aplikasi tempatan kami!",
+      "login_button": "Log masuk",
+      "signup_button": "Mendaftar"
+    },
+
+    "route": {
+      "STATUS": {
+        "pending": "YANG BELUM SELESAI",
+        "locked": "TERKUNCI",
+        "assigned": "DITUGASKAN",
+        "open": "BUKA",
+        "completed": "Selesai",
+        "accepted": "DITERIMA",
+        "done": "SELESAI",
+        "invalid":"DILARANG"
+        },
+          "ACTION": {
+          "view": "LIHAT",
+          "open": "BUKA",
+          "continue": "TERUSKAN",
+          "addOrders": "TAMBAH",
+          "lock": "KUNCI",
+          "unlock": "BUKA KUNCI",
+          "assign": "TAMBAHKAN PEMANDU",
+          "unassign": "TIDAK MENETAPKAN",
+          "complete": "SELESAI",
+          "accept": "TERIMA",
+          "close": "TUTUP",
+          "noop": "kesilapan",
+          "invalid": "kesilapan"
+        }
+    },
+  
+    "shp": {
+      "orderStatusDescrip": {
+        "initial": "Pengguna membuat pesanan",
+        "cancelled": "Pesanan dibatalkan",
+        "readyForPickup": "Siap dijemput",
+        "assignedForPickup":"Pesanan diberikan laluan pengambilan",
+        "outForPickup":"Pemandu dalam perjalanan untuk mengambil",
+        "pickedUp": "Pesanan dalam trak",
+        "atShop": "Pesanan dihantar ke kedai",
+        "inShop": "Pesanan diterima oleh kedai",
+        "readyForDelivery": "Pesanan siap dihantar",
+        "assignedForDelivery": "Pesanan diberikan laluan penghantaran",
+        "outForDelivery": "Pemandu dalam perjalanan untuk penghantaran",
+        "delivered": "Pesanan telah dihantar",
+        "confirmed": "Penghantaran pesanan disahkan oleh pelanggan",
+        "completed": "Pesanan ditutup oleh kedai",
+        "invalid": "Status pesanan tidak sah"
+      },
+      "orderActionConfirm": {
+        "view": "Lihat pesanan ini",
+        "price": "Harga pesanan ini?",
+        "addToRoute": "Tambahkan pesanan ini ke laluan?",
+        "removeFromRoute": "Keluarkan pesanan ini dari laluan?",
+        "accept":"Terima pesanan ini ke kedai?",
+        "cleaned":"Pesanan ini dibersihkan?",
+        "noop": "Kesalahan dalam Tindakan Enum",
+        "invalid": "Kesalahan dalam Tindakan Enum"
+      },
+      "routeActionConfirm": {
+        "lock": "Siapkan laluan untuk pemandu, tidak ada pesanan lagi?",
+        "unlock": "Benarkan lebih banyak pesanan?"
+      },
+    "routeStatusDescrip": {
+        "pending": "Masih menambah pesanan",
+        "locked": "Tidak ada lagi pesanan yang dibenarkan",
+        "assigned": "Ditugaskan kepada pemandu",
+        "open": "Pemandu keluar",
+        "completedNeedsAction": "Pemandu selesai tetapi pesanan memerlukan harga",
+        "completed": "Pemandu telah menyelesaikan laluan",
+        "acceptedNeedsAction": "Laluan diterima tetapi pesanan memerlukan harga",
+        "accepted": "Laluan siap diterima oleh kedai",
+        "done": "Semua selesai",
+        "invalid": "Status tidak sah"
+        },
+        "tab_DONE":"SELESAI",
+        "tab_INCOMING":"PENDAPATAN",
+        "tab_INSHOP":"DI KEDAI",
+        "tab_OUTGOING":"keluar",
+        "tab_PRICING":"HARGA",
+        "tab_RECEIVE":"TERIMA",
+        "tab_ROUTES":"LALUAN",
+        "tab_UNPAID":"TIDAK DIBAYAR"
+      },
+      "history": {
+        "orderStatusDescrip": {
+          "initial": "Pengguna membuat pesanan",
+          "cancelled": "Pesanan dibatalkan",
+          "readyForPickup": "Sedia untuk diambil",
+          "assignedForPickup":"Pesanan ditugaskan untuk mengambil Laluan",
+          "outForPickup":"Pemandu Untuk Pengambilan",
+          "pickedUp": "Pesan Dalam Lori",
+          "atShop": "Pesan Di Kedai",
+          "inShop": "Pesan Di Kedai",
+          "readyForDelivery": "Pesanan Dibersihkan",
+          "assignedForDelivery": "Pesanan Ditetapkan Ke Laluan Penghantaran",
+          "outForDelivery": "Pemandu Keluar Untuk Penghantaran",
+          "delivered": "Pesanan Dihantar",
+          "confirmed": "Penghantaran Disahkan",
+          "completed": "Ditutup oleh kedai",
+          "invalid": "Status pesanan tidak sah"
+        }
+      },
+
+    "toast": {
+      "test":"ujian",
+      "shp": {
+        "routeStatusChange": {
+          "lock": "Tidak ada lagi pesanan yang dapat ditambahkan ke laluan",
+          "unlock": "Anda sekarang boleh menambahkan pesanan ke laluan",
+          "assign": "Laluan diberikan kepada pemandu $ 1",
+          "unassign": "Laluan tidak lagi diberikan kepada pemandu",
+          "invalid": "Tindakan ini tidak ditentukan"
+        }
+      },
+      "drv":{
+        "noLocNoPath":"Mesti mempunyai kebenaran lokasi untuk mengaktifkan arahan"
+      }
+
+    },
+    "drvshp": {
+      "orderActionConfirm": {
+        "view": "Lihat pesanan ini",
+        "price": "Harga pesanan ini?",
+        "addToRoute": "Tambahkan pesanan ini ke laluan?",
+        "removeFromRoute": "Keluarkan pesanan ini dari laluan?",
+        "accept":"Terima pesanan ini ke kedai?",
+        "cleaned":"Pesanan ini dibersihkan?",
+        "noop": "Kesalahan dalam Tindakan Enum",
+        "invalid": "Kesalahan dalam Tindakan Enum",
+        "pickup": "Ambil pesanan ini?",
+        "undoPickup":"Adakah pengambilan ini salah?",
+        "dropoff":"Menurunkan pesanan ini?",
+        "undoDropoff":"Adakah pemutusan ini salah?",
+        "paymentReminder":"Adakah anda ingin menghantar peringatan?"
+      },
+      "routeActionConfirm": {
+        "open": "Bersedia untuk pergi ke jalan raya?",
+        "close": "Semua selesai dengan laluan ini?"
+      }
+      },
+      "trans":{
+        "pricingComplete":"Harga Selesai"
+      }
+  }
