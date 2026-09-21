@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { View, StyleSheet } from 'react-native'
-import { Toast } from 'native-base'
 import { strX } from 'DWcmn/I18n.js'
 import { RouteStatusEnum, OrderStatusEnum } from 'DWcmn/Global'
 import { COLORS } from 'DWcmn/Global'

@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { StyleSheet } from 'react-native';
 import { withNavigation } from 'react-navigation';
-import { Footer, Left, Body, Right } from 'native-base'
 
 import { PRJ_STYLES } from 'DWcmn/PrjStyles'
 import { COLORS } from 'DWcmn/Global'

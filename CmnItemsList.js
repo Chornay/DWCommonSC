@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { View, ScrollView, FlatList, TouchableOpacity, StyleSheet, Switch, } from 'react-native';
 import { withNavigation } from 'react-navigation';
+import { Platform } from 'react-native'
 
 import { ListItem } from 'native-base';
 

@@ -1,28 +1,25 @@
 import React, { Component } from 'react'
-import { StyleSheet, Dimensions, Image, View, Platform, StatusBar } from 'react-native'
-import { withNavigation } from 'react-navigation'
+import { StyleSheet, Dimensions, Image, View } from 'react-native'
+import { Body, Left, Right, Header } from 'native-base'
+import { withNavigation } from 'react-navigation';
 import { PRJ_STYLES } from './PrjStyles'
-import { PrjIconButton } from './Prj'
+import { PrjIconButton } from './Prj';
 import { PrjButtonWithConfirm } from 'DWcmn/PrjButtonWithConfirm'
 import { GCText, GCI18n } from 'DWcmn/Gc'
 import { COLORS, GC_STD_MARGIN } from 'DWcmn/Global'
 
-const { width: SCREEN_WIDTH } = Dimensions.get('window') || {}
+//20230501 changed to have header be coloured and go to edge of screen
+//         NOTE we had to flex-end < icon to make it more reachable (and flex-start for burger)
+//20230501 added height :-GC_STD_MARGIN below header
+//20250209 simplified cancel processing to always do a verified popToTop
 
-// Android: StatusBar.currentHeight is reliable and dynamic (varies by device/OS).
-// iOS: no equivalent RN-core API pre-notch-detection; 44 covers modern notch devices,
-// 20 covers older non-notch iPhones. Platform.OS check below approximates this —
-// NOT dynamic-island-aware. Verify against your min supported iOS device.
-const STATUS_BAR_HEIGHT = Platform.select({
-  android: StatusBar.currentHeight || 24,
-  ios: Dimensions.get('window').height >= 812 ? 44 : 20, // rough notch heuristic
-  default: 24,
-})
+const { width: SCREEN_WIDTH } = Dimensions.get('window') || {};
+const { height: SCREEN_HEIGHT } = Dimensions.get('window') || {};
 
-const HEADER_HEIGHT = Platform.select({ ios: 44, android: 56, default: 56 })
+
 
 //GCHeader is a header with limited styling abilities
-//designed for Cust (back) and Cust order creation (cancel) but also
+//designed for Cust (back) and Cust order creation (cancel) but also 
 //  used by D&S
 //It gives a title centered in the middle
 //BIG NOTE .. it will also render children ... not sure if we have used that capability
@@ -48,99 +45,67 @@ class GCHeader extends Component {
     const iconColor = this.props.iconColor || COLORS.GC_HEADER_ICON
 
     return (
-      <View>
-        <View
-          style={[
-            styles.header,
-            { backgroundColor: bkg, height: HEADER_HEIGHT },
-            this.props.style,
-          ]}
-        >
-          <View style={styles.left}>
-            {this.props.back && (
-              <PrjIconButton
-                id="ARROW_BACK_HEADER"
-                style={[PRJ_STYLES.headerIcon, { color: iconColor }, this.props.iconStyle]}
-                onPress={() => {
-                  if (typeof this.props.back === 'function') { this.props.back() }
-                  else { this.props.navigation.goBack() }
-                }}
-              />
-            )}
-          </View>
+      <View >
+      <Header style={[styles.header, {backgroundColor:bkg}, this.props.style]} >
+        <Left style={{ flex: .1, alignItems: 'flex-end' }}>
+          {this.props.back && <PrjIconButton id='ARROW_BACK_HEADER'
+            style={[PRJ_STYLES.headerIcon, {color:iconColor}, this.props.iconStyle ]}
+            onPress={() => {
+              if (typeof this.props.back === 'function') { this.props.back() }
+              else { this.props.navigation.goBack() }
+            }} />}
 
-          <View style={[styles.body, this.props.style]}>
-            {this.props.titleI18n && (
-              <GCI18n style={[headerTextStyle, this.props.titleStyle]} code={this.props.titleI18n} />
-            )}
-            {this.props.titleText && (
-              <GCText style={[headerTextStyle, this.props.titleStyle]}>{this.props.titleText}</GCText>
-            )}
-            {this.props.image && (
-              <Image
-                style={{
-                  height: 30,
-                  justifyContent: 'center',
-                  alignSelf: 'center',
-                  resizeMode: 'contain',
-                  width: SCREEN_WIDTH * 0.6, //CAUSE THEY INSISTED!!
-                }}
-                source={this.props.image}
-              />
-            )}
-            {this.props.children}
-          </View>
+        </Left>
+        <Body style={[
+          { flex: .8, justifyContent: 'center', alignItems: 'center' },
+          this.props.style]}>
+          {(this.props.titleI18n) &&
+            <GCI18n style={[headerTextStyle, this.props.titleStyle]} code={this.props.titleI18n} />
+          }
+          {(this.props.titleText) &&
+            <GCText style={[headerTextStyle, this.props.titleStyle]}>{this.props.titleText}</GCText>
+          }
+          {(this.props.image) &&
+            <Image
+              style={{
+                flex: 1, justifyContent: 'center', alignSelf: 'center', resizeMode: 'contain',
+                width: SCREEN_WIDTH * .6 //CAUSE THEY INSISTED!!
+              }}
+              source={this.props.image} />
+          }
+          {this.props.children}
+        </Body>
+        <Right style={{ flex: .1, alignItems: 'flex-start' }}>
+          {this.props.cancel && <PrjButtonWithConfirm
+            icon="CANCEL_HEADER"
+            buttonStyle={[PRJ_STYLES.headerIcon, this.props.iconStyle ]}
+            confirmI18n={this.props.cancelConfirmI18n||"cstNEW.DiscardOrder"}
+            onConfirm={() => {
+              this.props.navigation.popToTop()
+            }}
+          />}
+          {this.props.optionsBurger && <PrjIconButton id='BURGER'
+            style={[PRJ_STYLES.headerIcon, {color:iconColor}, this.props.iconStyle ]}
+            onPress={() => { this.props.optionsBurger() }}
+          />}
 
-          <View style={styles.right}>
-            {this.props.cancel && (
-              <PrjButtonWithConfirm
-                icon="CANCEL_HEADER"
-                buttonStyle={[PRJ_STYLES.headerIcon, this.props.iconStyle]}
-                confirmI18n={this.props.cancelConfirmI18n || 'cstNEW.DiscardOrder'}
-                onConfirm={() => { this.props.navigation.popToTop() }}
-              />
-            )}
-            {this.props.optionsBurger && (
-              <PrjIconButton
-                id="BURGER"
-                style={[PRJ_STYLES.headerIcon, { color: iconColor }, this.props.iconStyle]}
-                onPress={() => { this.props.optionsBurger() }}
-              />
-            )}
-          </View>
-        </View>
+        </Right>
+      </Header>
+      {(!this.props.noBottomPadding)&&<View style={{height:20}}/>}
 
-        {!this.props.noBottomPadding && <View style={{ height: GC_STD_MARGIN }} />}
-      </View>
-    )
+      </View>    )
   }
 }
 
+
 const styles = StyleSheet.create({
   header: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    paddingLeft: 0,
-    borderBottomWidth: 0,
+    paddingLeft: 0, //native base Header seems to have paddingLeft of 5ish
+    borderBottomWidth: 0, //to 'remove' bottom line on ios
+    elevation: 0,         //..............................
+    shadowOpacity: 0, //......................
   },
-  left: {
-    flex: 0.1,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'flex-end'
-  },
-  body: {
-    flex: 0.8,
-    flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'center'
-  },
-  right: {
-    flex: 0.1,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'flex-start'
-  },
+
 })
 
 export default withNavigation(GCHeader)

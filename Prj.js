@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { View, StyleSheet, TouchableOpacity, Dimensions } from 'react-native'
+import { Platform } from 'react-native'
 import { Fab } from 'native-base'
 import { Text } from 'react-native'
 import GLOBALS from 'DWcmn/Global';
