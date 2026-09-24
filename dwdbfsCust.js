@@ -215,12 +215,33 @@ export async function dwdbfsCustUpdateAddresses(currId, homeStop, altStop) {
    }
 }//end dwdbfsCustUpdateHomeStop
 
-//throws any errors
+//returns true iff successful
+//catches and annunciates any errors
 export async function dwdbfsCustUpdateHomeStop(currId, homeStop) {
-   await firestore().collection('Customers').doc(currId).update({ homeStop: homeStop, })
+   try {
+      await firestore().collection('Customers').doc(currId).update({
+         homeStop: homeStop,
+      })
+      return true
+   }
+   catch (err) {
+      cmnAlertPopup({ title: 'ERROR updating customer home stop', text: err.message })
+      return false
+   }
 }//end dwdbfsCustUpdateHomeStop
 
-//throws any errors
+//returns true iff successful
+//catches and annunciates any errors
 export async function dwdbfsCustUpdateAltStop(currId, altStop) {
-   await firestore().collection('Customers').doc(currId).update({ altStop: altStop })
+   //ALT console.log('db updating',altStop)
+   try {
+      await firestore().collection('Customers').doc(currId).update({
+         altStop: altStop
+      })
+      return true
+   }
+   catch (err) {
+      cmnAlertPopup({ title: 'ERROR updating customer alt stop', text: err.message })
+      return false
+   }
 }//end dwdbfsCustUpdateAltStop

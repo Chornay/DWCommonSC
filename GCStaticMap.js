@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import MapView, { PROVIDER_GOOGLE } from 'react-native-maps';
-import { Platform } from 'react-native'
 import { Marker } from 'react-native-maps';
 import { COLORS } from 'DWcmn/Global'
 

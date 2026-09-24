@@ -1,7 +1,6 @@
 import React from 'react'
 import { Linking } from 'react-native'
 import { prjToast } from 'DWcmn/PrjToast'
-import { Platform } from 'react-native'
 import { DW_WHATSAPP_NUMBER, DW_PHONE_NUMBER } from 'DWcmn/Global'
 
 

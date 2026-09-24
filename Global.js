@@ -89,9 +89,14 @@ export default {
 
 }
 export const DW_EMAIL_ADDRESS = "admin@dobbywalla.com"
-export const DW_PHONE_NUMBER = "+601126654287"
-export const DW_SMS_NUMBER = "+601126654287"
-export const DW_WHATSAPP_NUMBER = "+601126654287"
+
+// export const DW_PHONE_NUMBER = "+601126654287"
+// export const DW_SMS_NUMBER = "+601126654287"
+// export const DW_WHATSAPP_NUMBER = "+601126654287"
+export const DW_PHONE_NUMBER = "+60183408697"
+export const DW_SMS_NUMBER = "+60183408697"
+export const DW_WHATSAPP_NUMBER = "+60183408697"
+
 export const GC_STD_MARGIN = 10 //was 20 20240926
 export const GC_MIN_MARGIN = 10 //the horizontal screen margin to be used when not much space
 export const GC_STD_TOP = 20 //the standard margin 'claimed' at the bottom of GCHeader
